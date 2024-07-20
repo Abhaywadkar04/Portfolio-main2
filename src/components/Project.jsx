@@ -13,6 +13,12 @@ import blog3 from '../Media/showoff/blog3.png';
 import blog4 from '../Media/showoff/blog4.png';
 import blog5 from '../Media/showoff/blog5.png';
 import blog6 from '../Media/showoff/blog6.png';
+import quiz1 from '../Media/showoff/quiz1.png';
+import quiz2 from '../Media/showoff/quiz2.png';
+import quiz3 from '../Media/showoff/quiz3.png';
+import quiz4 from '../Media/showoff/quiz4.png';
+import quiz5 from '../Media/showoff/quiz5.png';
+
 import { motion } from 'framer-motion';
 
 const projects = [
@@ -31,6 +37,13 @@ const projects = [
     images: [blog1,blog2, blog3, blog4,blog5,blog6],
     liveDemo: "https://appwriteblog-two-tau.vercel.app/",
     github: "https://github.com/Abhaywadkar04/appwriteblog"
+  },
+  {
+    title: "quiz-game",
+    subtitle: "quiz-game",
+    description: "Build with python py-flask and mysql as the backend for the database",
+    images: [quiz1,quiz2,quiz3,quiz4,quiz5],
+    github: "https://github.com/Abhaywadkar04/quiz-game"
   },
   // {
   //   title: "Youtube",

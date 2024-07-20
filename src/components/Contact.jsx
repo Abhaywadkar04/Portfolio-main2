@@ -38,10 +38,9 @@ function Contact() {
             </div>
         </div>
         <div className="flex ml-5 mb-10 gap-5">
-            <a href="https://x.com/zaidrazvi09" target='_blank'><motion.img initial='hidden' whileInView='visible' variants={variants} transition={{duration:0.5,delay:0}} className='dark:invert w-7 my-2 hover:bg-pink-500 p-1 rounded' src={twitter} alt="" /></a>
-            <a href="https://www.linkedin.com/in/mohd-zaid-b28aa2248/" target='_blank'><motion.img initial='hidden' whileInView='visible' variants={variants} transition={{duration:0.5,delay:0.3}} className='dark:invert w-7 my-2 hover:bg-pink-500 p-1 rounded' src={linkedin} alt="" /></a>
-            <a href="https://github.com/MohdZaid259" target='_blank'><motion.img initial='hidden' whileInView='visible' variants={variants} transition={{duration:0.5,delay:0.6}} className='dark:invert w-7 my-2 hover:bg-pink-500 p-1 rounded' src={github} alt="" /></a>
-            <a href='https://www.google.co.in/maps/@26.2290722,81.2506927,14.84z?entry=ttu' target='_blank'><motion.img initial='hidden' whileInView='visible' variants={variants} transition={{duration:0.5,delay:0.9}} className='dark:invert w-7 my-2 hover:bg-pink-500 p-1 rounded' src={location} alt="" /></a>
+            <a href="https://www.linkedin.com/in/abhay-wadkar-078b25283/" target='_blank'><motion.img initial='hidden' whileInView='visible' variants={variants} transition={{duration:0.5,delay:0.3}} className='dark:invert w-7 my-2 hover:bg-pink-500 p-1 rounded' src={linkedin} alt="" /></a>
+            <a href="https://github.com/Abhaywadkar04" target='_blank'><motion.img initial='hidden' whileInView='visible' variants={variants} transition={{duration:0.5,delay:0.6}} className='dark:invert w-7 my-2 hover:bg-pink-500 p-1 rounded' src={github} alt="" /></a>
+            <a href='https://www.google.com/maps/@19.41504,72.8203264,14z?entry=ttu' target='_blank'><motion.img initial='hidden' whileInView='visible' variants={variants} transition={{duration:0.5,delay:0.9}} className='dark:invert w-7 my-2 hover:bg-pink-500 p-1 rounded' src={location} alt="" /></a>
             <a href="https://mail.google.com/mail/?view=cm&fs=1&to=razvizaid259@example.com" target='_blank'><motion.img initial='hidden' whileInView='visible' variants={variants} transition={{duration:0.5,delay:1.2}} className='dark:invert w-7 my-2 hover:bg-pink-500 p-1 rounded' src={paperplane} alt="" /></a>
         </div>
       </div>
