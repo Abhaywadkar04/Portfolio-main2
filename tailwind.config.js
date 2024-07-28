@@ -15,7 +15,7 @@ export default {
         '32rem': '32rem',
       },
       backgroundImage: {
-        'radial-gradient': 'radial-gradient(circle, #ffffff, #cefad0)',
+        'radial-gradient': 'radial-gradient(circle, #EDF1F4, #C3CBDC)',
       }
     }
   },

@@ -39,9 +39,9 @@ const projects = [
     github: "https://github.com/Abhaywadkar04/appwriteblog"
   },
   {
-    title: "quiz-game",
+    title: "quizzz",
     subtitle: "quiz-game",
-    description: "Build with python py-flask and mysql as the backend for the database",
+    description: "Quizzz is a Python Flask quiz game with MySQL, featuring lifelines like 50-50 and question change, ending with a final score display on a wrong answer.",
     images: [quiz1,quiz2,quiz3,quiz4,quiz5],
     github: "https://github.com/Abhaywadkar04/quiz-game"
   },
@@ -104,7 +104,7 @@ function Project() {
 
   return (
     <section className='h-full px-2 bg-radial-gradient md:px-4 lg:px-10 py-10 dark:bg-gradient-to-r dark:from-black dark:via-gray-950 dark:to-gray-900 dark:text-white text-black'>
-      <h1 className='dark:drop-shadow-[0_0_5px_rgba(0,0,225,1)] px-2 sm:pl-5 md:px-12 text-2xl md:text-3xl lg:text-5xl mb-7 font-bold text-pink-600 dark:text-green-400'># Projects</h1>
+      <h1 className='dark:drop-shadow-[0_0_5px_rgba(0,0,225,1)] px-2 sm:pl-5 md:px-12 text-2xl md:text-3xl lg:text-5xl mb-7 font-bold text-blue-600 dark:text-blue-400'># Projects</h1>
       {projects.map((project, projectIndex) => {
         const mainImageIndex = mainImageIndices[projectIndex];
         const mainImage = project.images[mainImageIndex];
@@ -139,14 +139,14 @@ function Project() {
             <div className='px-4 lg:px-12'>
               <div className='flex gap-3 lg:gap-5 mx-2 lg:mx-6 mt-5 mb-5'>
                 <motion.button initial={{opacity:0,x:-50}} whileInView={{opacity:1,x:0}} transition={{duration:0.7}}>
-                  <a href={project.github} target="_blank" className="border-2 border-pink-700 dark:border-green-500 px-2 py-1 lg:px-4 lg:py-2 text-lg rounded hover:bg-pink-600 dark:hover:bg-green-600 duration-150">Github</a>
+                  <a href={project.github} target="_blank" className="border-2 border-blue-700 dark:border-blue-500 px-2 py-1 lg:px-4 lg:py-2 text-lg rounded hover:bg-blue-600 dark:hover:bg-blue-600 duration-150">Github</a>
                 </motion.button>
                 <motion.button initial={{opacity:0,x:-50}} whileInView={{opacity:1,x:0}} transition={{duration:0.7,delay:1}}>
-                  <a href={project.liveDemo} target="_blank" className="border-2 border-pink-700 dark:border-green-500 px-2 py-1 lg:px-4 lg:py-2 text-lg rounded hover:bg-pink-600 dark:hover:bg-green-600 duration-150">Live Demo</a>
+                  <a href={project.liveDemo} target="_blank" className="border-2 border-blue-700 dark:border-blue-500 px-2 py-1 lg:px-4 lg:py-2 text-lg rounded hover:bg-blue-600 dark:hover:bg-blue-600 duration-150">Live Demo</a>
                 </motion.button>
               </div>
               <div className='tracking-wider text-xl'>
-                <motion.span initial='hidden' whileInView='visible' variants={variants} transition={{transition:1,delay:0.5}} className='text-3xl font-bold text-pink-600 dark:text-green-400'>{project.title} : </motion.span>
+                <motion.span initial='hidden' whileInView='visible' variants={variants} transition={{transition:1,delay:0.5}} className='text-3xl font-bold text-blue-600 dark:text-blue-400'>{project.title} : </motion.span>
                 <motion.span initial='hidden' whileInView='visible' variants={variants} transition={{transition:1,delay:0.7}} className='text-2xl font-semibold'>{project.subtitle}</motion.span>
                 <motion.span initial='hidden' whileInView='visible' variants={variants } transition={{transition:1,delay:0.9}} className='inline-block mt-3 pb-3'>{project.description}</motion.span>
               </div>

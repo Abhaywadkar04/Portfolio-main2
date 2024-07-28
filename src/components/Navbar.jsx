@@ -28,7 +28,7 @@ export default function Header() {
     }
   ]
   const headerstyle = {
-    boxShadow: '0 1px 4px rgba(0, 225, 150, 0.4)',
+    boxShadow: '0 1px 4px rgba(30, 136, 229, 0.4)',
   };
 
   return (
@@ -53,9 +53,9 @@ export default function Header() {
               } flex flex-col sm:flex-row items-end sm:items-center gap-3 sm:gap-4 sm:text-lg transition-all duration-200 ease-in-out`}
             >
             {navItems.map((item,id)=>(
-              <a key={id} className='active:text-green-500 mx-3 hover:underline text-xl underline-offset-4' href={item.slug}>{item.name}</a>
+              <a key={id} className='active:text-blue-500 mx-3 hover:underline text-xl underline-offset-4' href={item.slug}>{item.name}</a>
             ))}
-              <a href='#contact' className='active:text-green-500 mx-3 rounded-md dark:bg-green-600 text-white px-2 py-0.5 bg-pink-600 hover:bg-pink-700 dark:hover:bg-green-700 text-xl'>Contact Me</a>            
+              <a href='#contact' className='active:text-blue-500 mx-3 rounded-md dark:bg-blue-600 text-white px-2 py-0.5 bg-blue-600 hover:bg-blue-700 dark:hover:bg-blue-700 text-xl'>Contact Me</a>            
             </ul>
             <div className="ml-2 w-10 sm:w-12 invert dark:invert-0"><ThemeProvider><Switcher/></ThemeProvider></div>
           </div>

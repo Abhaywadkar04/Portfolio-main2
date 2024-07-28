@@ -60,7 +60,7 @@ function Home() {
           I am{" "}
           <span
             ref={element}
-            className="dark:drop-shadow-[0_0_5px_rgba(0,0,225,1)] dark:text-green-500 text-pink-600"
+            className="dark:drop-shadow-[0_0_5px_rgba(0,0,225,1)] dark:text-blue-500 text-blue-600"
           ></span>
         </motion.h1>
         <motion.p
@@ -81,7 +81,7 @@ function Home() {
         >
           <a href="https://x.com/" target="_blank">
             <img
-              className="dark:invert w-7 md:w-8 my-2 hover:bg-pink-500 p-1 rounded"
+              className="dark:invert w-7 md:w-8 my-2 hover:bg-blue-500 p-1 rounded"
               src={twitter}
               alt=""
             />
@@ -91,14 +91,14 @@ function Home() {
             target="_blank"
           >
             <img
-              className="dark:invert w-7 md:w-8 my-2 hover:bg-pink-500 p-1 rounded"
+              className="dark:invert w-7 md:w-8 my-2 hover:bg-blue-500 p-1 rounded"
               src={linkedin}
               alt="linked in"
             />
           </a>
           <a href="https://github.com/Abhaywadkar04" target="_blank">
             <img
-              className="dark:invert w-8 md:w-9 my-2 hover:bg-pink-500 p-1 rounded"
+              className="dark:invert w-8 md:w-9 my-2 hover:bg-blue-500 p-1 rounded"
               src={github}
               alt="github"
             />
@@ -111,7 +111,7 @@ function Home() {
           whileInView="visible"
           variants={textVariants}
           transition={{ duration: 0.5, delay: 2 }}
-          className="my-2 dark:bg-green-500 bg-pink-600 dark:hover:bg-green-600 hover:bg-pink-700 text-white rounded-lg w-fit px-3 py-1 text-base sm:text-lg md:text-xl"
+          className="my-2 dark:bg-blue-500 bg-blue-600 dark:hover:bg-blue-600 hover:bg-blue-700 text-white rounded-lg w-fit px-3 py-1 text-base sm:text-lg md:text-xl"
         >
           Download CV
         </motion.a>

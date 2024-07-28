@@ -69,7 +69,7 @@ function Skills() {
 
   return (
     <section className="h-full px-5 py-10 gap-5 bg-radial-gradient dark:bg-gradient-to-r dark:from-black dark:via-gray-950 dark:to-gray-900 dark:text-white text-black">
-      <h1 className="px-2 sm:pl-5 md:px-12 text-2xl md:text-3xl lg:text-5xl mb-7 font-bold text-pink-600 dark:text-green-400 dark:drop-shadow-[0_0_5px_rgba(0,0,225,1)]">
+      <h1 className="px-2 sm:pl-5 md:px-12 text-2xl md:text-3xl lg:text-5xl mb-7 font-bold text-blue-600 dark:text-blue-400 dark:drop-shadow-[0_0_5px_rgba(0,0,225,1)]">
         # Skills
       </h1>
       <div className="flex flex-col md:flex-row ">
@@ -88,7 +88,7 @@ function Skills() {
                   <img
                     src={img[cellIndex / 2]}
                     alt=""
-                    className="p-1 md:p-2 border border-pink-700 dark:border-green-400 rounded-full w-11 h-11 sm:w-14 sm:h-14 md:w-16 md:h-16"
+                    className="p-1 md:p-2 border border-blue-700 dark:border-blue-400 rounded-full w-11 h-11 sm:w-14 sm:h-14 md:w-16 md:h-16"
                   />
                 )}
               </motion.div>
@@ -99,7 +99,7 @@ function Skills() {
           <div className="flex flex-col w-full flex-wrap gap-5">
             <div className="flex justify-between sm:justify-around">
               <div>
-                <div className="text-xl md:text-2xl font-semibold  text-pink-700 dark:text-green-400">
+                <div className="text-xl md:text-2xl font-semibold  text-blue-700 dark:text-blue-400">
                   Frontend
                 </div>
                 <motion.div
@@ -118,7 +118,7 @@ function Skills() {
                 </motion.div>
               </div>
               <div>
-                <div className="text-xl md:text-2xl font-semibold text-pink-700 dark:text-green-400">
+                <div className="text-xl md:text-2xl font-semibold text-blue-700 dark:text-blue-400">
                   Backend
                 </div>
                 <motion.div
@@ -139,7 +139,7 @@ function Skills() {
             </div>
             <div className="mx-0 md:mx-20 flex flex-col gap-5">
               <div className="">
-                <span className="text-xl md:text-2xl font-semibold text-pink-700 dark:text-green-400">
+                <span className="text-xl md:text-2xl font-semibold text-blue-700 dark:text-blue-400">
                   Languages known
                 </span>
                 <motion.div
@@ -158,7 +158,7 @@ function Skills() {
                 </motion.div>
               </div>
               <div className="">
-                <span className="text-xl md:text-2xl font-semibold text-pink-700 dark:text-green-400">
+                <span className="text-xl md:text-2xl font-semibold text-blue-700 dark:text-blue-400">
                   Database Management
                 </span>
                 <motion.div
@@ -182,7 +182,7 @@ function Skills() {
                 variants={textVariants}
                 className=""
               >
-                <span className="text-xl md:text-2xl font-semibold text-pink-700 dark:text-green-400">
+                <span className="text-xl md:text-2xl font-semibold text-blue-700 dark:text-blue-400">
                   Version Control
                 </span>
                 <div className="flex flex-col">
