@@ -23,14 +23,7 @@ import { motion } from 'framer-motion';
 
 const projects = [
   
-  {
-    title: "Blogger",
-    subtitle: "echoes",
-    description: "Built and deployed a production-quality blog application using Appwrite (backend-as-a-service). Utilizing a modern tech stack, including React.js, Tailwind CSS, and various other libraries, I engineered the application for seamless performance and robust functionality.",
-    images: [blog1,blog2, blog3, blog4,blog5,blog6],
-    liveDemo: "https://appwriteblog-two-tau.vercel.app/",
-    github: "https://github.com/Abhaywadkar04/appwriteblog"
-  },
+  
   {
     title: "pokedex",
     subtitle: "pokedex",
@@ -38,6 +31,14 @@ const projects = [
     images: [ecommercehero, ecommerce1, ecommerce2,ecommerce3],
     liveDemo: "https://abhaywadkar04.github.io/newpokidex/",
     github: "https://github.com/Abhaywadkar04/newpokidex"
+  },
+  {
+    title: "Blogger",
+    subtitle: "echoes",
+    description: "Built and deployed a production-quality blog application using Appwrite (backend-as-a-service). Utilizing a modern tech stack, including React.js, Tailwind CSS, and various other libraries, I engineered the application for seamless performance and robust functionality.",
+    images: [blog1,blog2, blog3, blog4,blog5,blog6],
+    liveDemo: "https://appwriteblog-two-tau.vercel.app/",
+    github: "https://github.com/Abhaywadkar04/appwriteblog"
   },
   {
     title: "quizzz",
