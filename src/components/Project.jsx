@@ -22,14 +22,7 @@ import quiz5 from '../Media/showoff/quiz5.png';
 import { motion } from 'framer-motion';
 
 const projects = [
-  {
-    title: "pokedex",
-    subtitle: "pokedex",
-    description: "A vibrant React.js Pokédex app that utilizes APIs, allowing users to search for Pokémon by name or number. This project helped me learn API usage and UI creation. The app features a colorful interface to enhance the overall user experience.",
-    images: [ecommercehero, ecommerce1, ecommerce2,ecommerce3],
-    liveDemo: "https://abhaywadkar04.github.io/newpokidex/",
-    github: "https://github.com/Abhaywadkar04/newpokidex"
-  },
+  
   {
     title: "Blogger",
     subtitle: "echoes",
@@ -37,6 +30,14 @@ const projects = [
     images: [blog1,blog2, blog3, blog4,blog5,blog6],
     liveDemo: "https://appwriteblog-two-tau.vercel.app/",
     github: "https://github.com/Abhaywadkar04/appwriteblog"
+  },
+  {
+    title: "pokedex",
+    subtitle: "pokedex",
+    description: "A vibrant React.js Pokédex app that utilizes APIs, allowing users to search for Pokémon by name or number. This project helped me learn API usage and UI creation. The app features a colorful interface to enhance the overall user experience.",
+    images: [ecommercehero, ecommerce1, ecommerce2,ecommerce3],
+    liveDemo: "https://abhaywadkar04.github.io/newpokidex/",
+    github: "https://github.com/Abhaywadkar04/newpokidex"
   },
   {
     title: "quizzz",
