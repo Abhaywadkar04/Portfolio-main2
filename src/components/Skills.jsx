@@ -37,7 +37,7 @@ function Skills() {
   ];
   const skills = [
     ["HTML 5", "CSS 3", "ReactJs", "Redux", "Tailwind", "Framer Motion"],
-    ["NodeJs", "Express", "Appwrite"],
+    ["NodeJs", "Appwrite","Flask"],
     ["Javascript", "Python", "c++"],
     ["MongoDb", "MySQL"],
     ["Github", "Git"],
