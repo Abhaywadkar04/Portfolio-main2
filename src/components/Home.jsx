@@ -5,7 +5,7 @@ import twitter from "../Media/twitter.png";
 import Typed from "typed.js";
 import abhay from "../Media/abhay2.png";
 import { motion } from "framer-motion";
-//import resume_fullStack from "../asset/resume_fullStack.pdf";
+import resume_fullStack from "../asset/abhaywadkar.pdf";
 
 function Home() {
   const element = useRef(null);
@@ -105,7 +105,7 @@ function Home() {
           </a>
         </motion.div>
         <motion.a
-          //href={resume_fullStack}
+          href={resume_fullStack}
           download
           initial="hidden"
           whileInView="visible"
@@ -126,6 +126,11 @@ function Home() {
           alt=""
         />
       </div>
+
+
+
+
+
     </section>
   );
 }

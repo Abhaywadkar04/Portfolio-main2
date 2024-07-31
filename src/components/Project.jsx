@@ -29,7 +29,7 @@ const projects = [
     description:
       "A vibrant javascript Pokédex app that utilizes APIs, allowing users to search for Pokémon by name or number. This project helped me learn API usage and UI creation. The app features a colorful interface to enhance the overall user experience.",
     images: [ecommerce4, ecommerce1, ecommerce2, ecommerce3],
-    liveDemo: "https://abhaywadkar04.github.io/newpokidex/",
+    liveDemo: "https://pokiii.netlify.app",
     github: "https://github.com/Abhaywadkar04/newpokidex",
   },
   {
