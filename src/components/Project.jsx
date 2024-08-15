@@ -45,7 +45,7 @@ const projects = [
     title: "quizzz",
     subtitle: "quiz-game",
     description:
-      "Quizzz is a Python Flask quiz game with MySQL, featuring lifelines like 50-50 and question change, ending with a final score display on a wrong answer.",
+      "Quizzz is a Python Flask quiz game with MySQL, featuring lifelines like 50-50 and question change, ending with a final score.",
     images: [quiz1, quiz2, quiz3, quiz4, quiz5],
     github: "https://github.com/Abhaywadkar04/quiz-game",
   },

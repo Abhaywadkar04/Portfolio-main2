@@ -1,7 +1,6 @@
 import React from 'react'
 import qopen from '../Media/qopen.png'
 import qclose from '../Media/qclose.png'
-import signatureop from '../Media/signatureop.png'
 import { motion } from 'framer-motion'
 
 export default function About() {

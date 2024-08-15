@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from "react";
 import github from "../Media/github.png";
 import linkedin from "../Media/linkedin.png";
 import twitter from "../Media/twitter.png";
+import instagram from "../Media/instagram.png";
 import Typed from "typed.js";
 import abhay from "../Media/abhay2.png";
 import { motion } from "framer-motion";
@@ -14,7 +15,13 @@ function Home() {
   useEffect(() => {
     const timer = setTimeout(() => {
       new Typed(element.current, {
-        strings: ["Abhay wadkar.", "a Web Developer.", "a Web Designer."],
+        strings: [
+          "Abhay wadkar.",
+          "a Web Developer.",
+          "a Web Designer.",
+          "a Programmer.",
+          "a Cuber.",
+        ],
         typeSpeed: 80,
       });
     }, 800);
@@ -79,11 +86,11 @@ function Home() {
           transition={{ duration: 0.5, delay: 1.5 }}
           className="flex gap-5"
         >
-          <a href="https://x.com/" target="_blank">
+          <a href="https://www.instagram.com/abhhay____/" target="_blank">
             <img
               className="dark:invert w-7 md:w-8 my-2 hover:bg-blue-500 p-1 rounded"
-              src={twitter}
-              alt=""
+              src={instagram}
+              alt="instagram"
             />
           </a>
           <a
@@ -126,11 +133,6 @@ function Home() {
           alt=""
         />
       </div>
-
-
-
-
-
     </section>
   );
 }
