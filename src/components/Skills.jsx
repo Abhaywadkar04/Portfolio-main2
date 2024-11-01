@@ -6,7 +6,7 @@ import redux from "../Media/skills/redux.png";
 import tailwind from "../Media/skills/tailwind.png";
 import nodejs from "../Media/skills/nodejs.png";
 import appwrite from "../Media/skills/appwrite.png";
-import flask from "../Media/skills/flask.png"
+import flask from "../Media/skills/flask.png";
 import framer from "../Media/skills/framer.png";
 import js from "../Media/skills/js.png";
 import cpp from "../Media/skills/cpp.png";
@@ -28,16 +28,14 @@ function Skills() {
     framer,
     js,
     cpp,
-    java,
     mysql,
     mongodb,
     git,
     github,
-    flask
   ];
   const skills = [
     ["HTML 5", "CSS 3", "ReactJs", "Redux", "Tailwind", "Framer Motion"],
-    ["NodeJs", "Appwrite","Flask"],
+    ["NodeJs", "Appwrite"],
     ["Javascript", "Python", "c++"],
     ["MongoDb", "MySQL"],
     ["Github", "Git"],
