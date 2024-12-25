@@ -18,6 +18,7 @@ function ThemeProvider({children}) {
   )
 }
 
+
 function Switcher(){
   const {theme,toggle}=useContext(themeContext)
 

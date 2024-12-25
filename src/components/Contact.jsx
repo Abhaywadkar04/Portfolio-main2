@@ -17,6 +17,7 @@ function Contact() {
   const handleSubmit = async (event) => {
     event.preventDefault();
 
+    
     const formData = new FormData(event.target);
 
     formData.append("access_key", "f1f9e5a6-7aa7-47c6-a70d-5ec13d50b402");

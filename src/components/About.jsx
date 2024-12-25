@@ -9,6 +9,7 @@ export default function About() {
     visible: { opacity: 1, y: 0 }
   }
 
+  
   return (
     <section className='flex bg-radial-gradient py-10 h-auto gap-7 justify-center dark:bg-gradient-to-r dark:from-black dark:via-gray-950 dark:to-gray-900 dark:text-white text-black'>
       <div className='md:flex m-auto md:flex-col px-5 sm:pl-8 md:px-16 justify-center items-start '>

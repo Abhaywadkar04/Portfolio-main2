@@ -93,6 +93,7 @@ function Home() {
               alt="instagram"
             />
           </a>
+          
           <a
             href="https://www.linkedin.com/in/abhay-wadkar-078b25283/"
             target="_blank"

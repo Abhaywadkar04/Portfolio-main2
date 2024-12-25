@@ -13,6 +13,7 @@ export default {
       },
       margin: {
         '32rem': '32rem',
+        
       },
       backgroundImage: {
         'radial-gradient': 'radial-gradient(circle, #EDF1F4, #C3CBDC)',

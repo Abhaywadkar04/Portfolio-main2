@@ -43,6 +43,7 @@ function Skills() {
   const totalCells = 6 * 6;
   const gridCells = Array.from({ length: totalCells }, (_, index) => index);
 
+  
   const variants = {
     hidden: {
       opacity: 0,

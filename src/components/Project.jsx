@@ -32,6 +32,7 @@ const projects = [
     liveDemo: "https://pokiii.netlify.app",
     github: "https://github.com/Abhaywadkar04/newpokidex",
   },
+  
   {
     title: "Blogger",
     subtitle: "echoes",
